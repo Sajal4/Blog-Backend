@@ -1,3 +1,7 @@
+# project url : https://blogs-back.herokuapp.com/
+# backend urls : https://backends-blogapp.herokuapp.com/api/home,food,holly,bolly,fit 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
