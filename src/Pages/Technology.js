@@ -5,7 +5,7 @@ import SmallCard from '../Component/SmallCard';
 export const Technology = () => {
   const[data,setData]=useState([])
   useEffect(()=>{
-      const url = "http://localhost:5000/api/tech";
+      const url = "https://backends-blogapp.herokuapp.com/api/tech";
       fetch(url).then(res => res.json())
           .then(res => setData(res)  )
   },[])

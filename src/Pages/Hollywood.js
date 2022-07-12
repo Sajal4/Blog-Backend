@@ -5,11 +5,10 @@ import SmallCard from '../Component/SmallCard';
 const Hollywood = () => {
     const[data,setData]=useState([])
     useEffect(()=>{
-        const url = "https://blog-website-with-backend.herokuapp.com/holly";
+        const url = "https://backends-blogapp.herokuapp.com/holly";
         fetch(url).then(res => res.json())
             .then(res => setData(res)  )
     },[])
-    // console.log(detail);
     return (
         <div>
             <h1 style={{ margin: "20px 10%", display: "inline-block" }}>Hollywood</h1>
