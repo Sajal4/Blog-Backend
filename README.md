@@ -1,5 +1,6 @@
 # project url : https://blogs-back.herokuapp.com/
-# backend urls : https://backends-blogapp.herokuapp.com/api/home,food,holly,bolly,fit 
+## project url : https://backend-blog-0001.netlify.app/
+## backend urls : https://backends-blogapp.herokuapp.com/api/home,food,holly,bolly,fit 
 
 
 # Getting Started with Create React App
