@@ -1,5 +1,6 @@
 # project url : https://blogs-back.herokuapp.com/
 ## project url : https://backend-blog-0001.netlify.app/
+## project url : https://blog-backend-kappa.vercel.app/
 ## backend urls : https://backends-blogapp.herokuapp.com/api/home,food,holly,bolly,fit 
 
 
