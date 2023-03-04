@@ -5,7 +5,7 @@ import SmallCard from '../Component/SmallCard';
 const Food = () => {
     const[data,setData]=useState([])
     useEffect(()=>{
-        const url = "https://blog-backend-heroku.vercel.app/api/food";
+        const url = "https://backends-blogapp.herokuapp.com/api/food";
         fetch(url).then(res => res.json())
         .then(res => setData(res)  )
     },[])
