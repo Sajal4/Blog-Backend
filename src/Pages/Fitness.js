@@ -5,7 +5,8 @@ import SmallCard from '../Component/SmallCard';
 const Fitness = () => {
     const[data,setData]=useState([])
     useEffect(()=>{
-        const url = "https://backends-blogapp.herokuapp.com//api/fit";
+        const url = "https://backends-blogapp.herokuapp.com/api/fit";
+        const url = "https://blog-backend-heroku.vercel.app/api/fit";
         fetch(url).then(res => res.json())
             .then(res => setData(res)  )
     },[])

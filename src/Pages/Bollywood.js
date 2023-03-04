@@ -5,7 +5,8 @@ import SmallCard from '../Component/SmallCard';
 const Bollywood = () => {
     const[data,setData]=useState([])
     useEffect(()=>{
-        const url = "https://backends-blogapp.herokuapp.com/api/bolly";
+        // const url = "https://backends-blogapp.herokuapp.com/api/bolly";
+        const url = "https://blog-backend-heroku.vercel.app/api/bolly";
         fetch(url).then(res => res.json())
             .then(res => setData(res)  )
     },[])

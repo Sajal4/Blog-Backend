@@ -5,7 +5,7 @@ import SmallCard from '../Component/SmallCard';
 const Hollywood = () => {
     const[data,setData]=useState([])
     useEffect(()=>{
-        const url = "https://backends-blogapp.herokuapp.com/holly";
+        const url = "https://blog-backend-heroku.vercel.app/api/holly";
         fetch(url).then(res => res.json())
             .then(res => setData(res)  )
     },[])
